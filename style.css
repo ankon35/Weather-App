@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 26, 26);
+    min-height: 100vh;
+}
+
+.card{
+    width: 90%;
+    max-width: 375px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,8,204,1) 20%, rgba(18,76,191,1) 44%, rgba(139,135,40,1) 60%, rgba(162,90,153,1) 78%, rgba(0,212,255,1) 100%);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 10px;
+    max-height: 100%;
+    margin-top: 2rem;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 1.5rem;
+}
+
+.header input{
+    height: 2.5rem;
+    width: 70%;
+    border-radius: 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.header i{
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.weather{
+    font-size: 8rem;
+    margin-top: 2rem;
+    color: white;
+}
+
+.info{
+    margin-top: 1.5rem;
+}
+.temp{
+    font-size: 4rem;
+    font-weight: 600;
+    color: white;
+}
+
+.location{
+    font-size: 2.7rem;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+.humidity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.humidity i{
+    font-size: 3rem;
+
+}
+
+.currentHumidity{
+    font-size: 1.5rem;
+    text-align: start;
+}
+
+
+.wind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.wind i{
+    font-size: 3rem;
+
+}
+
+.windSpeed{
+    font-size: 1.5rem;
+    text-align: start;
+}
